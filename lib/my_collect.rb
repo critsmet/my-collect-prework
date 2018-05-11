@@ -9,5 +9,4 @@ end
 
 my_collect(something) do |x|
   x.upcase
-end
-end
+enend

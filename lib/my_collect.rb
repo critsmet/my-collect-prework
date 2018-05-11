@@ -7,7 +7,7 @@ def my_collect(array)
 end
 end
 
-my_collect(something) do |x|
+my_collect(array) do |x|
   if x == x.downcase
     x.upcase
   else 

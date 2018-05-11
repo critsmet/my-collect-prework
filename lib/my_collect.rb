@@ -7,7 +7,3 @@ def my_collect(something)
 end
 return something
 end
-
-my_collect(something) do |x|
-  x
-end

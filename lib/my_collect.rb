@@ -12,6 +12,8 @@ my_collect(something) do |x|
   langauges = []
   if x == x.downcase
     languages << x.upcase
+    return languages
   else firstNames << x.split(" ").first
+    return firstNames
 end
 end

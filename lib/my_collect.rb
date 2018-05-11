@@ -6,3 +6,7 @@ def my_collect(something)
 end
 return capped
 end
+
+my_collect(something) do |x|
+  x 
+end

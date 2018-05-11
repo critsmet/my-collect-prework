@@ -4,9 +4,8 @@ def my_collect(something)
   while i < something.length
   yield something[i]
 end
-return capped
 end
 
 my_collect(something) do |x|
   x.upcase
-enend
+end

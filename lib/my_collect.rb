@@ -5,7 +5,7 @@ def my_collect(something)
   yield something[i]
   i += 1
 end
-return capped
+return something
 end
 
 my_collect(something) do |x|

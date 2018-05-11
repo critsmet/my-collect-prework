@@ -10,3 +10,4 @@ end
 my_collect(something) do |x|
   x.uppercase
 end
+end

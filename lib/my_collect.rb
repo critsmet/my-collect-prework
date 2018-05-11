@@ -4,7 +4,6 @@ def my_collect(something)
   while i < something.length
   capped << yield something[i]
 end
-end
 return capped
 end
 

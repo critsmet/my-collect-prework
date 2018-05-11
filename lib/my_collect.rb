@@ -2,7 +2,7 @@ def my_collect(something)
   i = 0
   capped = []
   while i < something.length
-  yield capped.unshift(something[i])
+  yield something[i]
 end
 return capped
 end

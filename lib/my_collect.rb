@@ -10,7 +10,7 @@ end
 my_collect(something) do |x|
   firstNames = []
   langauges = []
-  if x == x.upcase
+  if x == x.downcase
     languages << x.upcase
-  else 
+  else firstNames << x.split(" ").first
 end

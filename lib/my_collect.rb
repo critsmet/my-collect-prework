@@ -1,4 +1,4 @@
-array = [1, 2, 3]
+array = []
 
 def my_collect(array)
   i = 0

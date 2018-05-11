@@ -6,6 +6,7 @@ def my_collect(array)
   new << n
   i += 1
 end
+return new
 end
 
 my_collect(array) do |x|

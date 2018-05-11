@@ -11,6 +11,6 @@ my_collect(something) do |x|
   if x == x.downcase
     x.upcase
   else 
-    << x.split(" ").first
+    x.split(" ").first
 end
 end

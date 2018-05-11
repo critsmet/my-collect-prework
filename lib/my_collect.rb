@@ -8,6 +8,9 @@ end
 end
 
 my_collect(something) do |x|
-  if x == x.uppercase
-    
+  firstNames = []
+  langauges = []
+  if x == x.upcase
+    languages << x.upcase
+  else 
 end

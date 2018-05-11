@@ -1,4 +1,4 @@
-array = []
+
 
 def my_collect(array)
   i = 0
@@ -9,12 +9,4 @@ def my_collect(array)
   i += 1
 end
 return new
-end
-
-my_collect(array) do |x|
-  if x == x.downcase
-    x.upcase
-  else 
-    x.split(" ").first
-end
 end

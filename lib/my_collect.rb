@@ -14,3 +14,4 @@ my_collect(something) do |x|
     languages << x.upcase
   else firstNames << x.split(" ").first
 end
+end

@@ -8,5 +8,5 @@ return capped
 end
 
 my_collect(something) do |x|
-  x 
+  x.uppercase
 end
